@@ -2,14 +2,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebas
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js"
 
 const firebaseConfig = {
-    databaseURL: "https://leads-tracker-app-ad7fc-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL: "https://leads-tracker-app-94ead-default-rtdb.europe-west1.firebasedatabase.app/"
 }
 
 const app = initializeApp(firebaseConfig)
 const database = getDatabase(app)
 
 // console.log(app)
-console.log(database)
+// console.log(database)
+console.log(firebaseConfig.databaseURL);
 
 localStorage.clear();
 let myLeads = [];
