@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px; 
+    /* to tell Chrome how wide I want the extension to be*/
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5F933F;
+}
+
+button {
+    text-transform: uppercase;
+    background: #5F933F;
+    color: #fff;
+    margin-top: 4px;
+    padding: 10px 20px;
+    border: 1px solid #5F933F;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: #fff;
+    color: #5F933F;
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+a {
+    color: #5F933F;
+}
+
+
+/* html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+    cursor: pointer;
+    background: lightseagreen;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+} */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    text-align: center;
+    color: #130e0f;
+}
+
+h1 {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#container {
+    width: 100%;
+}
+
+.team-img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px;
+} */
