@@ -1,9 +1,14 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px; 
+    max-width: 249px; 
     /* to tell Chrome how wide I want the extension to be*/
+}
+
+label {
+    color: #5f9341;
+    font-weight: 900;
 }
 
 input {
